@@ -1,0 +1,9 @@
+1. CD-ROM内のPetitRoyal.airファイルをzipファイルとしてどこかに展開する
+2. petit_royal_sqlite2html DB/petit_royal.sqlite > out.html
+3. petit_royal.ebsをebstudioに読み込ませる
+
+とりあえず公開
+
+TODO
+*コードの整理、高速化
+*ドキュメントの整理
