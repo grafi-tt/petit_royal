@@ -1,4 +1,4 @@
-#!/usr/bin/ruby19
+#!/usr/bin/ruby
 # coding: UTF-8
 require 'sqlite3'
 require 'nokogiri'
@@ -329,6 +329,6 @@ db.execute('select * from items') {|id, header, html, count|
     end
     node.swap content
   end
-  puts tree.to_html(encoding: 'Shift_JIS')
+  puts tree.to_html(:encoding => 'Shift_JIS')
 }
 puts "</body>\n</html>"
