@@ -9,6 +9,9 @@
 *ruby-sqlite3
 *nokogiri
 
+= ライセンス =
+MIT License
+
 TODO
 *コードの整理、高速化(rubyで書く必要が無いようなコードだしC#かJavaにする？)
 *ドキュメントの整理
